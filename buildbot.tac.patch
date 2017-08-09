@@ -1,0 +1,6 @@
+5a6,10
+> # monkey-patch RecursiveGlobPath command
+> from buildbot_worker.commands.registry import commandRegistry
+> from org.jetbrains.research.kotoed.buildbot.worker_commands import RecursiveGlobPath
+> commandRegistry["glob-rec"] = RecursiveGlobPath
+> 
