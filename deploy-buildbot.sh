@@ -26,3 +26,4 @@ sed -i "s/BUILDBOT_WORKER_PWD/${BUILDBOT_WORKER_PWD}/g" bb-master/master.cfg
 patch bb-worker/buildbot.tac "${SCRIPT_DIR}/buildbot.tac.patch"
 
 cp "${SCRIPT_DIR}/start_buildbot.sh" .
+cp "${SCRIPT_DIR}/stop_buildbot.sh" .

@@ -1,4 +1,6 @@
 #!/usr/bin/env bash
 
-buildbot start bb-master
-buildbot-worker start bb-worker
+source bin/activate
+
+buildbot restart bb-master
+buildbot-worker restart bb-worker
