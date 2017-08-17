@@ -2,5 +2,5 @@
 
 source bin/activate
 
-buildbot restart bb-master
-buildbot-worker restart bb-worker
+buildbot restart bb-master || exit 1
+buildbot-worker restart bb-worker || exit 1
