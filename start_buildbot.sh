@@ -5,5 +5,5 @@ cd $(dirname $(realpath $0))
 source bin/activate
 
 buildbot restart bb-master
-sleep 120
+sleep 180
 buildbot-worker restart bb-worker
