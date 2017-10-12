@@ -6,7 +6,7 @@ source bin/activate
 
 buildbot restart bb-master
 
-sleep 240
+sleep 360
 
 for dir in bb-worker-*; do
 	buildbot-worker restart $dir
