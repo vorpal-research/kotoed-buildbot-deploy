@@ -35,6 +35,7 @@ done
 
 cp -u "${SCRIPT_DIR}/master.cfg" bb-master
 cp -u "${SCRIPT_DIR}/688b3917ff347813631c24e0ebdd3c67.json" bb-master
+cp -u "${SCRIPT_DIR}/d6b2dc70e1bb38e8ad7a679125bf2562.json" bb-master
 
 mkdir -p bb-master/secrets
 cp -u "${SCRIPT_DIR}/id_rsa.kotoed" bb-master/secrets
